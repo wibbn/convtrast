@@ -178,14 +178,3 @@ class MessageExtractor:
             self.__anonymize()
 
         return self.data
-
-    def import_from_csv(self, 
-        file_path: str) -> pd.core.frame.DataFrame:
-        """
-        Import ready data from csv file
-        """
-
-    def save_to_csv(self):
-        """
-        Save ready data to csv file
-        """
